@@ -1,4 +1,4 @@
-# Need to write the sum of a list using only recursion
+# Need to find the sum of a list using only recursion
 
 from random import randint
 
