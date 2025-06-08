@@ -1,7 +1,9 @@
 # Need to write the sum of a list using only recursion
 
+from random import randint
 
-def rec_sum(mass: list):
+
+def rec_sum(mass: list) -> int:
     if len(mass) == 0:
         return 0
     elif len(mass) == 1:
@@ -10,4 +12,6 @@ def rec_sum(mass: list):
         return mass[0] + rec_sum(mass[1:])
 
 
-print(rec_sum([2, 4, 6, 10]))
+random_list = [randint(0, 50) for i in range(randint(0, 10))]
+print(random_list)
+print(rec_sum(random_list))
