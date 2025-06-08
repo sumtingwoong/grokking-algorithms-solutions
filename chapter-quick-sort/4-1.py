@@ -1,3 +1,6 @@
+# Need to write the sum of a list using only recursion
+
+
 def rec_sum(mass: list):
     if len(mass) == 0:
         return 0
